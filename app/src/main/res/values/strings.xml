@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TipIT</string>
+    <string name="txt_Title">Simple Tip Calculator</string>
+    <string name="txt_charges">Bill Amount</string>
+    <string name="txt_Ppl">Number of People</string>
+    <string name="btn_Calc">Calculate</string>
+    <string-array name="txtGroup">
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+    </string-array>
+    <string name="txt_total"></string>
+</resources>

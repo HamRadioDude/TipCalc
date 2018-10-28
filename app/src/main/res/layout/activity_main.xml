@@ -37,14 +37,14 @@
 
     <EditText
         android:id="@+id/txtCharges"
-        android:layout_width="231dp"
-        android:layout_height="60dp"
+        android:layout_width="229dp"
+        android:layout_height="58dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="@string/txt_charges"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -69,8 +69,8 @@
 
     <Spinner
         android:id="@+id/txtGroup"
-        android:layout_width="91dp"
-        android:layout_height="38dp"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
@@ -112,4 +112,5 @@
         app:layout_constraintTop_toBottomOf="@+id/btnCalc"
         app:layout_constraintVertical_bias="0.0"
         tools:text="@string/txt_total" />
+
 </android.support.constraint.ConstraintLayout>

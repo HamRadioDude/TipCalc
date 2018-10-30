@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
                                         // billTotal = Double.parseDouble(amount.getText().toString());
 //                            numPpl = Integer.parseInt(people.getText().toString());
-                                        float num = 0;
+                                        // float num = 0;
 
                                         try {
                                             billTotal = Double.parseDouble(amount.getText().toString());
